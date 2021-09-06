@@ -76,7 +76,7 @@ function draw() {
   drawSprites();
   textSize(20);
   text("Score: "+score,300,30);
-  score += Math.round(getFrameRate()/60);
+
 }
 
 
